@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Radium UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+      <div class="navbar-section">
+          <img class="navbar-logo" src="logo.svg">
+      </div>
+      <div class="navbar-section">
+        <div class="navbar-item navbar-button navbar-item-selected">Settings</div>
+        <div class="navbar-item navbar-button">Account</div>
+      </div>
+    </div>
+  
+  <h1 class="h-tag-header">Radium Component Library</h1>
+  <div class="h-tag">A Modern User Interface Component Library</div>
+  
+  <container>
+      <section class="hundred">
+        <h2>Card</h2>
+        <p>The most basic component in modern user interface design-the card.</p>
+        <div class="card">
+          <h2 class="card-title">Trip to Japan</h2>
+          <p class="card-bottom">Generally, the goal of user interface design is to produce a user interface which makes it easy (self-explanatory), efficient, and enjoyable (user-friendly) to operate a machine in the way which produces the desired result. This generally means that the operator needs to provide minimal input to achieve the desired output, and also that the machine minimizes undesired outputs to the human.</p>
+        </div>
+      </section>
+    
+      <section class="hundred">
+        <h2>Forms</h2>
+        <div class="card-title-top">Log in to continue</div>
+        <div class="card">
+          <input type="text" placeholder="Email" class="hundred">
+          <input type="password" placeholder="Password" class="hundred">
+          <div class="checkbox">
+            <input type="checkbox">
+            <label>Agree to Terms and Conditions</label>
+          </div>
+          <button>Log in</button>
+        </div>
+      </section>
+
+      <section class="hundred">
+          <h2>Navigation Bar</h2>
+          <div class="navbar">
+            <div class="navbar-section">
+              <div class="navbar-item navbar-button">Athena</div>
+            </div>
+            <div class="navbar-section">
+              <div class="navbar-item navbar-button navbar-item-selected">Settings</div>
+              <div class="navbar-item navbar-button">Account</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="hundred">
+          <h2>Expand Card</h2>
+          <p>An expandable card</p>
+          <div class="card-expandable" draggable="true">
+            <div class="card-expandable-header">
+                <h2 class="card-title">Card Title</h2>
+                <div class="card-icons">
+                  <i data-feather="maximize"></i>
+                  <i data-feather="trash"></i>
+                </div>
+            </div> 
+            <div class="card-content">Generally, the goal of user interface design is to produce a user interface which makes it easy (self-explanatory), efficient, and enjoyable (user-friendly) to operate a machine in the way which produces the desired result. This generally means that the operator needs to provide minimal input to achieve the desired output, and also that the machine minimizes undesired outputs to the human.</div>
+          </div>
+        </section>
+  </container>
+  <footer>
+    <div class="footer-item">Made by @roshancvp</div>
+    <div class="footer-item">Github</div>
+  </footer>
+  <script src="anime.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
