@@ -51,6 +51,12 @@ h1 {
   padding-bottom: 5px; 
 }
 
+hero {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
 h2 {
   font-size: 24px;
   font-weight: 500;
@@ -120,7 +126,7 @@ section {
 }
 
 .thirty-three {
-  width: 33.33%
+  width: 30%
 }
 
 .fifty {
@@ -203,6 +209,7 @@ label {
   justify-content: space-between;
   padding: 10px 0px;
   color: #444444;
+  border-bottom: 1px solid #B8B8B8;
 }
 
 .navbar-section {
@@ -259,3 +266,12 @@ footer {
   justify-content: space-between;
 }
 
+.code {
+  font-size: 16px;
+  line-height: 28px;
+  color: #3F4D68;
+  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  border-radius: 5px;
+}
